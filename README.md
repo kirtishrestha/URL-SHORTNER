@@ -12,16 +12,15 @@ A full-stack MERN application that converts long, cumbersome URLs into shortened
 # Tech Stack
 This project is built using the MERN stack and other modern web technologies.
 
-## Frontend:
-React.js
-Axios (for API requests)
-
-## Backend:
-Node.js
-Express.js
-Database:
-MongoDB
-Mongoose (for object data modeling)
+-   **Backend**:
+    -   [Node.js](https://nodejs.org/)
+    -   [Express.js](https://expressjs.com/)
+-   **Database**:
+    -   [MongoDB](https://www.mongodb.com/)
+    -   [Mongoose](https://mongoosejs.com/) (for object data modeling)
+-   **Utilities**:
+    -   [Nodemon](https://nodemon.io/) (for automatic server restarts during development)
+    -   [ShortID](https://github.com/dylang/shortid) (for generating unique short IDs)
 
 ## Utilities:
 Nodemon (for automatic server restarts during development)
