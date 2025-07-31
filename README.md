@@ -59,28 +59,35 @@ You must have the following installed on your machine:
 ### 1. Clone the repository:
 ```git clone https://github.com/kirtishrestha/URL-SHORTNER.git
     cd URL-SHORTNER
+```
 
 ### 2. Set up the Backend Server:
 #### Navigate to the server directory
 ```cd server
+```
 
 #### Install dependencies
 ```npm install
+```
 
 #### Start the server (runs on http://localhost:8001)
 ```npm start
+```
 
 _Your backend server should now be running and connected to your local MongoDB instance._
 
 ### 3. Set up the Frontend Client:
 #### Open a new terminal and navigate to the client directory
 ```cd client
+```
 
 #### Install dependencies
 ```npm install
+```
 
 #### Start the React development server (runs on http://localhost:3000)
 ```npm start
+```
 
 # API Endpoints
 The backend provides the following RESTful API endpoints:
