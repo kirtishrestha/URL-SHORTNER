@@ -29,22 +29,22 @@ Nano ID / ShortID (for generating unique short IDs)
 
 
 # Project Structure
-/
-├── client/         # React Frontend
-│   ├── public/
-│   └── src/
-│       ├── App.js
-│       └── index.js
-│
-└── server/         # Node.js Backend
-    ├── controllers/
-    │   └── url.js
-    ├── models/
-    │   └── url.js
-    ├── routes/
-    │   └── url.js
-    ├── connect.js
-    └── index.js
+- /
+- ├── client/         # React Frontend
+- │   ├── public/
+- │   └── src/
+- │       ├── App.js
+- │       └── index.js
+- │
+- └── server/         # Node.js Backend
+-     ├── controllers/
+-     │   └── url.js
+-     ├── models/
+-     │   └── url.js
+-     ├── routes/
+-     │   └── url.js
+-     ├── connect.js
+-     └── index.js
 
 
 # Getting Started
@@ -57,37 +57,38 @@ You must have the following installed on your machine:
 
 ## Installation & Setup
 ### 1. Clone the repository:
-git clone https://github.com/kirtishrestha/URL-SHORTNER.git
-cd URL-SHORTNER
+```git clone https://github.com/kirtishrestha/URL-SHORTNER.git
+    cd URL-SHORTNER
 
 ### 2. Set up the Backend Server:
 #### Navigate to the server directory
-cd server
+```cd server
 
 #### Install dependencies
-npm install
+```npm install
 
 #### Start the server (runs on http://localhost:8001)
-npm start
+```npm start
 
 _Your backend server should now be running and connected to your local MongoDB instance._
 
 ### 3. Set up the Frontend Client:
 #### Open a new terminal and navigate to the client directory
-cd client
+```cd client
 
 #### Install dependencies
-npm install
+```npm install
 
 #### Start the React development server (runs on http://localhost:3000)
-npm start
+```npm start
 
 # API Endpoints
 The backend provides the following RESTful API endpoints:
-# Method	Endpoint	                Description
-POST      /url	                    Creates a new short URL. Body: { "url": "..." }
-GET	      /:shortId	                Redirects the user to the original URL.
-GET     	/url/analytics/:shortId	  Fetches the click history and analytics for a URL.
+# | Method	| Endpoint	                | Description |
+| POST      | /url	                    | Creates a new short URL. Body: { "url": "..." } |
+| GET	    | /:shortId	                | Redirects the user to the original URL. |
+|GET     	| /url/analytics/:shortId	| Fetches the click history and analytics for a URL. |
+
 
 
 # License
