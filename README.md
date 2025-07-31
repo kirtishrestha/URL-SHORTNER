@@ -28,22 +28,6 @@ Nodemon (for automatic server restarts during development)
 Nano ID / ShortID (for generating unique short IDs)
 
 
-# Project Structure
-/URL_SHORTNER
-├── controllers/
-│ └── url.js # Contains the logic for handling requests
-├── models/
-│ └── url.js # Defines the MongoDB data schema
-├── routes/
-│ └── url.js # Defines the API endpoints (routes)
-├── node_modules/
-├── connect.js # Handles the MongoDB connection logic
-├── index.js # Main server entry point
-├── package-lock.json
-├── package.json
-└── README.md
-
-
 # Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -95,11 +79,11 @@ _Your backend server should now be running and connected to your local MongoDB i
 
 # API Endpoints
 The backend provides the following RESTful API endpoints:
-# | Method	| Endpoint	                | Description                                       |
-  | :------ | :-----------------------: | ------------------------------------------------: |
-  | POST    | /url	                    | Creates a new short URL. Body: { "url": "..." } |
-  | GET	    | /:shortId	                | Redirects the user to the original URL. |
-  |GET     	| /url/analytics/:shortId	| Fetches the click history and analytics for a URL. |
+| Method	| Endpoint	                | Description                                       |
+| :-------- | :-----------------------: | ------------------------------------------------: |
+| POST      | /url	                    | Creates a new short URL. Body: { "url": "..." } |
+| GET	    | /:shortId	                | Redirects the user to the original URL. |
+| GET       | /url/analytics/:shortId	| Fetches the click history and analytics for a URL. |
 
 
 
