@@ -4,7 +4,7 @@ A full-stack MERN application that converts long, cumbersome URLs into shortened
 # Features
 -   **Shorten URL**: Converts valid long URL into a unique, 8-character short ID.
 -   **Seamless Redirection**: Automatically redirects users from the short link to the original destination.
--   **RESTful API**: A well-structured backend API built using the MVC pattern.
+-   **RESTful API**: A well-structured backend API built with Node.js and Express.js.
 
 
 # Tech Stack
